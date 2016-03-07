@@ -1,8 +1,109 @@
-body {
-    background-color: lightblue;
+@font-face{
+
+      src: url(fonts/goodfoot.woff);    
+      font-family:Goodfoot;
+ 
 }
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+
+body {
+    background-color: white;
+    color:#444;
+    margin:0;
+    line-height:0;
+}
+
+body p {
+
+    line-height:1.4em;
+    font-size:16px;
+}
+
+.wrapper {  
+    width:100%;
+ }
+
+.container{
+    max-width:1024px; 
+    margin:0 auto;
+}
+
+.header {
+    padding:20px 0 50px;
+    border-bottom:1px solid #ddd;
+}
+
+.logo {
+    
+    float:left;
+    
+}
+
+.logo h2 {
+   
+   margin:0;
+   font-size:36px;
+   font-family: Goodfoot; 
+   font-weight:bold;
+   line-height:100%;
+
+}
+
+.nav {
+
+    float:right;
+}
+
+.nav ul {
+ 
+    list-style:none;  
+}
+
+.nav ul li {
+    display:inline-block;
+    margin-right:20px;
+}
+
+.nav ul li a {
+
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#666;
+}
+
+.nav ul li a:hover {
+
+    color:#0089dd;
+}
+
+
+.nav ul li a.selected {
+
+    text-decoration:underline;
+    color:#0089dd;
+}
+
+
+h1.main-title{
+    text-align:center;
+    padding:50px 0;
+    font-family:verdana;
+    text-transform:uppercase;
+}
+
+.footer{
+
+   border-top:1px solid #ddd;
+   padding:15px 0;
+   position:absolute;
+   width:100%;
+   bottom:0;
+   
+}
+.copyright{
+
+   float:left;
+   padding: 15px 0;
+   
+}
 }
